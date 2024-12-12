@@ -6,4 +6,4 @@ import { SavedList } from './ts/classes/SavedList';
 
 const savedList = new SavedList();
 const findList = new FindList(savedList);
-const input = new Input(findList);
+new Input(findList);
