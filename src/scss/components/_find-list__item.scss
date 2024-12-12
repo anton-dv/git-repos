@@ -1,0 +1,13 @@
+.find-list__item {
+    width: 100%;
+    padding: 0px 12px 3px;
+    background-color: #e3e3e3;
+    border: 2px solid black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .1s background-color ease-in-out;
+
+    &:hover {
+        background-color: #65cdf9;
+    }
+}

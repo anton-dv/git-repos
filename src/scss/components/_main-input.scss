@@ -1,0 +1,12 @@
+.main-input {
+    width: 100%;
+    padding: 3px 12px 0;
+    border: none;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+
+    &::placeholder {
+        color: rgb(233, 233, 233);
+    }
+}

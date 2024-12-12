@@ -1,0 +1,16 @@
+.saved-list__remove {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: calc(50% - 22.5px);
+    right: 31px;
+    cursor: pointer;
+
+    path {
+        transition: .1s stroke ease-in-out;
+    }
+
+    &:hover path {
+        stroke: rgb(165, 20, 20);
+    }
+}

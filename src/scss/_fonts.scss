@@ -1,0 +1,18 @@
+$path: '../assets/fonts/';
+
+@mixin font-roboto($postfix, $weight) {
+  $TTLakes: 'Roboto';
+
+  @font-face {
+    font-family: $TTLakes;
+    src: local('#{$TTLakes}#{$postfix}'), local('#{$TTLakes}-#{$postfix}'),
+      url('#{$path}#{$TTLakes}-#{$postfix}.woff2') format('woff2'),
+      url('#{$path}#{$TTLakes}-#{$postfix}.woff') format('woff');
+    font-weight: $weight;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@include font-roboto('Regular', 400);
+
